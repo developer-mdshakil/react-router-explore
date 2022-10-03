@@ -1,0 +1,19 @@
+.user-details{
+    background-color: lightgray;
+    width: 40%;
+    transform: translateY(10%);
+    margin: auto;
+    text-align: justify;
+    padding: 2rem 4rem;
+}
+.user-details h2{
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+.user-details p{
+   font-size: 1.3rem;
+}
+.user-details span{
+    color: blue;
+    cursor: pointer;
+}

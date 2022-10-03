@@ -24,6 +24,9 @@ function App() {
          {path: '/contact', element: <Contact></Contact>},
          {
           path: '/userInfo/:userId', 
+          loader: async({params}) => {
+            return fetch(`https://jsonplaceholder.typicode.com/users/${params.userId}`)
+          },
           element: <UserDetails></UserDetails>
          }
     ]},
