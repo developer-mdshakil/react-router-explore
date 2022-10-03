@@ -2,6 +2,9 @@
     background-color: blue;
     padding: 0.6rem 0;
 }
+.active{
+    color: #ff5200;
+}
 .nav-items{
     text-decoration: none;
     color: #fff;
