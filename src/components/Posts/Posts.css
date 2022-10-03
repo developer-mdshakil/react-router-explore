@@ -1,0 +1,8 @@
+.post-group{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: auto;
+}

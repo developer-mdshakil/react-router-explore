@@ -1,0 +1,13 @@
+.post{
+    background: black;
+    color: #fff;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+.post h4{
+    font-size: 1.5rem;
+}
+.post span{
+    color: blue;
+    text-align: justify;
+}
