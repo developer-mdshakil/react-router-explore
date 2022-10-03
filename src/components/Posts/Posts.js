@@ -1,12 +1,12 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import Post from '../Post/Post';
-import './Posts.css'
+import './Posts.css';
 
 const Posts = () => {
     const posts = useLoaderData();
     return (
-        <div>
+        <div className='post-container'>
             <h3>Here few post: {posts.length}</h3>
             <div className='post-group'>
             {
